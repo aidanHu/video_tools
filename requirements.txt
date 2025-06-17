@@ -1,0 +1,22 @@
+# GUI界面依赖
+PyQt6>=6.5.0
+
+# 浏览器自动化依赖
+playwright>=1.40.0
+
+# Excel处理依赖
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 网络请求依赖
+requests>=2.31.0
+
+# 进程管理依赖
+psutil>=5.9.0
+
+# 后续功能可能需要的依赖（暂时注释）
+# yt-dlp>=2023.7.6
+# opencv-python>=4.8.0
+# google-generativeai>=0.3.0
+# requests>=2.31.0
+# Pillow>=10.0.0 
