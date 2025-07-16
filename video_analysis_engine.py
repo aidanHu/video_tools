@@ -636,7 +636,7 @@ class VideoAnalysisEngine(QThread):
         try:
             # 在输入框输入重试提示词
             prompt_textarea = self.page.locator("//ms-chunk-input//textarea")
-            prompt_textarea.fill("按照要求输出分镜提示词")
+            prompt_textarea.fill("按照要求输出完整分镜提示词")
             time.sleep(random.uniform(1, 2)) # 增加延时
             
             # 点击run按钮 - 使用新的选择器
